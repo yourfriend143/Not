@@ -66,7 +66,7 @@ photozip = 'https://envs.sh/cD_.jpg'
 BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/saini_contact_bot")]])
 keyboard = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+        [InlineKeyboardButton(text="🛠️ Help", url="https://Gumnaaam_hai_koi"), InlineKeyboardButton(text="🛠️ Repo", url="https://Gumnaaam_hai_koi")],
     ]
 )
 
@@ -498,7 +498,7 @@ async def start(bot, m: Message):
     caption = f"🌟 Welcome {m.from_user.mention} ! 🌟"
     start_message = await bot.send_photo(
         chat_id=m.chat.id,
-        photo="https://tinypic.host/images/2025/07/14/IMG_20250714_161041_194.jpg",
+        photo="https://graph.org/file/bcf1fbe3708277ccb31e3-4d7967c1dbee1cce20.jpg",
         caption=caption
     )
 
@@ -639,7 +639,7 @@ async def help_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://graph.org/file/bcf1fbe3708277ccb31e3-4d7967c1dbee1cce20.jpg",
       caption=caption
     ),
     reply_markup=keyboard
